@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+    padding: 0 200px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #e5e7eb;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    padding: 0 200px;
+    background-color: #1F2937;
+    gap: 30px;
+}
+
+.section-one h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.section-one p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-one button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 40px;
+}
+
+.one-b p {
+    background-color: lightslategray;
+    padding: 100px 200px;
+}
+
+.section-two {
+    display: flex;
+    flex: 1;
+    padding: 0 200px;
+}
+
+.section-three {
+    display: flex;
+    flex: 1;
+    padding: 0 200px;
+}
+
+.section-four {
+    display: flex;
+    flex: 1;
+    padding: 0 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 100px;
+}
